@@ -19,13 +19,13 @@ Bash-скрипт для автоматической установки и уп
 Запуск одной командой:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/CraLynx/telemetriha/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh | bash
 ```
 
 или
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/CraLynx/telemetriha/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh | bash
 ```
 
 ##  Требования
@@ -93,7 +93,7 @@ bash uninstall.sh
 Перед запуском рекомендуется ознакомиться с содержимым скрипта:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/CraLynx/telemetriha/main/install.sh
+curl -fsSL https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh
 ```
 
 ##  Roadmap
