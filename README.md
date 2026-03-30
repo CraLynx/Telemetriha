@@ -19,7 +19,7 @@ Bash-скрипт для автоматической установки и уп
 Запуск одной командой:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh | bash
+bash <(curl -Ls https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh)
 ```
 
 или
