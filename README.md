@@ -25,7 +25,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/CraLynx/telemetriha/main/telem
 или
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh | bash
+bash <(wget -qO- https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh)
 ```
 
 ##  Требования
