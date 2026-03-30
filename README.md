@@ -1,5 +1,5 @@
 # Telemetriha
-
+![Image alt](https://github.com/CraLynx/Telemetriha/blob/main/Telemetriha.png)
 Bash-скрипт для автоматической установки и управления MTProto proxy для Telegram с поддержкой администрирования клиентов.
 
 ##  Возможности
