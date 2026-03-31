@@ -1,5 +1,5 @@
 # Telemetriha
-![Image alt](https://github.com/CraLynx/Telemetriha/blob/main/Telemetriha.png)
+![Image alt](https://github.com/CraLynx/Telemetriha/blob/main/TELEMETRIHA.png)
 Telemetriha — это Bash-надстройка для автоматической установки и управления MTProto proxy с использованием Telemt.
 
 ###  Важно: Telemetriha НЕ является частью Telemt и не является официальным продуктом Telemt.
