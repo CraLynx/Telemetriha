@@ -17,16 +17,21 @@ Telemetriha — это Bash-надстройка для автоматическ
 
 ##  Установка
 
-Запуск одной командой:
+Загрузка одной командой:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh)
+curl -O https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh
 ```
 
 или
 
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh)
+wget https://raw.githubusercontent.com/CraLynx/telemetriha/main/telemetriha.sh
+```
+##  Запуск
+
+```bash
+bash telemetriha.sh
 ```
 
 ##  Требования
@@ -54,7 +59,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/CraLynx/telemetriha/main/tele
 
 ## 🔧 Управление
 
-После установки доступен скрипт управления (например `manage.sh`).
+После установки доступен скрипт управления (например `bash telemetriha.sh`).
 
 Поддерживаемые операции:
 
@@ -68,16 +73,9 @@ bash <(wget -qO- https://raw.githubusercontent.com/CraLynx/telemetriha/main/tele
 Управление через systemd:
 
 ```bash
-sudo systemctl status telemetriha
-sudo systemctl restart telemetriha
-sudo systemctl stop telemetriha
-```
-## Удаление
-
-Для удаления:
-
-```bash
-bash uninstall.sh
+sudo systemctl status telemt
+sudo systemctl restart telemt
+sudo systemctl stop telemt
 ```
 
 ##  Безопасность
